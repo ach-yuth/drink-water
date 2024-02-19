@@ -1,0 +1,67 @@
+body {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cups {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  gap: 10px;
+}
+p {
+  color: white;
+  font-size: 2rem;
+}
+.big-cup {
+  width: 200px;
+  height: 330px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: white;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.remained {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.percentage {
+  display: flex;
+  background-color: brown;
+  justify-content: center;
+  align-items: center;
+
+  width: 200px;
+}
+.big-cup {
+  overflow: hidden;
+}
+
+.small-cups {
+  width: 80px;
+  height: 150px;
+  background-color: white;
+  margin: 3px;
+  border: 1px solid;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.small-cups.full {
+  background-color: blueviolet;
+}
